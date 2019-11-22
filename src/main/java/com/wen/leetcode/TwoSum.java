@@ -1,5 +1,8 @@
 package com.wen.leetcode;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,12 +27,12 @@ import java.util.Map;
  */
 public class TwoSum {
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         int[] nums = new int[]{3, 2, 4};
-        int[] result = twoSum4(nums, 6);
-        for (int i : result) {
-            System.out.print(i + " ");
-        }
+        int[] actual = twoSum4(nums, 6);
+        int[] expect = new int[]{1, 2};
+        Assert.assertArrayEquals(expect, actual);
     }
 
     /**
@@ -39,7 +42,7 @@ public class TwoSum {
      * 主要是因为nums中可能有重复的元素，而Map的key不能重复，导致不通过。
      * @param nums 整数数组
      * @param target 目标值
-     * @return 数组下边
+     * @return 数组下标
      */
     static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
@@ -65,7 +68,7 @@ public class TwoSum {
      * 随后就用暴利破解先写了一个，可以通过，效果不是很理想。
      * @param nums 整数数组
      * @param target 目标值
-     * @return 数组下边
+     * @return 数组下标
      */
     static int[] twoSum2(int[] nums, int target) {
         int[] result = new int[2];
@@ -87,7 +90,7 @@ public class TwoSum {
      * 这个可以通过，执行时间还可以。
      * @param nums 整数数组
      * @param target 目标值
-     * @return 数组下边
+     * @return 数组下标
      */
     static int[] twoSum3(int[] nums, int target) {
         int[] result = new int[2];
@@ -110,7 +113,7 @@ public class TwoSum {
      * 这个程序唯一的弊端可能是当nums中数大于2048时会出问题。
      * @param nums 整数数组
      * @param target 目标值
-     * @return 数组下边
+     * @return 数组下标
      */
     static int[] twoSum4(int[] nums, int target) {
         int max = 2047;
