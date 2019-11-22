@@ -44,7 +44,7 @@ public class TwoSum {
      * @param target 目标值
      * @return 数组下标
      */
-    static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> numMap = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
@@ -70,7 +70,7 @@ public class TwoSum {
      * @param target 目标值
      * @return 数组下标
      */
-    static int[] twoSum2(int[] nums, int target) {
+    public int[] twoSum2(int[] nums, int target) {
         int[] result = new int[2];
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -92,7 +92,7 @@ public class TwoSum {
      * @param target 目标值
      * @return 数组下标
      */
-    static int[] twoSum3(int[] nums, int target) {
+    public int[] twoSum3(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> numMap = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
@@ -115,7 +115,7 @@ public class TwoSum {
      * @param target 目标值
      * @return 数组下标
      */
-    static int[] twoSum4(int[] nums, int target) {
+    public int[] twoSum4(int[] nums, int target) {
         int max = 2047;
         int[] map = new int[2048];
         for(int i = 0; i < nums.length; i++ ){
