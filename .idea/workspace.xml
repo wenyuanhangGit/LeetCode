@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,20 +12,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeetCode" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="1772">
+              <caret line="147" column="47" lean-forward="true" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#twoSum#0;class#TwoSum#0" />
-                <element signature="e#861#879#0" expanded="true" />
-                <element signature="method#twoSum2#0;class#TwoSum#0" />
-                <element signature="method#twoSum3#0;class#TwoSum#0" />
-                <element signature="e#1927#1945#0" expanded="true" />
+                <element signature="method#addTwoNumbers2#0;class#TwoAdd#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,6 +60,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java" />
       </list>
     </option>
   </component>
@@ -119,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574401007574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574412265940" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -140,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoSum.test">
+  <component name="RunManager" selected="JUnit.TwoAdd.test">
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.TwoSum" />
       <module name="LeetCode" />
@@ -150,6 +161,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoAdd.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.TwoAdd" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,6 +199,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoAdd.test" />
         <item itemvalue="JUnit.TwoSum.test" />
         <item itemvalue="Application.TwoSum" />
       </list>
@@ -187,7 +215,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574391768608</updated>
-      <workItem from="1574391776579" duration="3699000" />
+      <workItem from="1574391776579" duration="12629000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -196,22 +224,57 @@
       <option name="project" value="LOCAL" />
       <updated>1574394446881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化">
+      <created>1574401081709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574401081709</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化">
+      <created>1574405336116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574405336116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoSum_test - 2019.11.22 at 13h 33m 16s.xml">
-      <configuration name="TwoSum.test" configurationId="JUnit" />
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 03m 27s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSum_test - 2019.11.22 at 13h 34m 45s.xml">
-      <configuration name="TwoSum.test" configurationId="JUnit" />
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 03m 39s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSum_test - 2019.11.22 at 13h 36m 52s.xml">
-      <configuration name="TwoSum.test" configurationId="JUnit" />
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 03m 48s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 04m 03s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 05m 35s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 08m 26s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 09m 51s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 14m 15s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 14m 53s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoAdd_test - 2019.11.22 at 16h 15m 15s.xml">
+      <configuration name="TwoAdd.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3699000" />
+    <option name="totallyTimeSpent" value="12629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,20 +293,20 @@
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
+      <window_info id="Favorites" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.21588486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37418655" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26789588" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26898047" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -294,7 +357,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.两数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.两数之和" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -348,15 +412,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="775">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#twoSum#0;class#TwoSum#0" />
-            <element signature="e#861#879#0" expanded="true" />
             <element signature="method#twoSum2#0;class#TwoSum#0" />
             <element signature="method#twoSum3#0;class#TwoSum#0" />
-            <element signature="e#1927#1945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1772">
+          <caret line="147" column="47" lean-forward="true" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
+          <folding>
+            <element signature="method#addTwoNumbers2#0;class#TwoAdd#0" />
           </folding>
         </state>
       </provider>
