@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,25 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LengthOfLongestSubstring.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/IntReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" />
-                <element signature="method#allUnique#0;class#LengthOfLongestSubstring#0" />
-                <element signature="e#2136#2147#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="115">
+              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,6 +47,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/LengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/IntReverse.java" />
       </list>
     </option>
   </component>
@@ -131,7 +116,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574671030434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574674956298" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -152,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LengthOfLongestSubstring.test">
+  <component name="RunManager" selected="JUnit.IntReverse.test">
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.TwoSum" />
       <module name="LeetCode" />
@@ -162,6 +147,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntReverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.IntReverse" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,6 +232,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntReverse.test" />
         <item itemvalue="JUnit.LengthOfLongestSubstring" />
         <item itemvalue="JUnit.TwoAdd.test" />
         <item itemvalue="JUnit.TwoSum.test" />
@@ -250,7 +252,7 @@
       <updated>1574391768608</updated>
       <workItem from="1574391776579" duration="14922000" />
       <workItem from="1574643220215" duration="6637000" />
-      <workItem from="1574663367008" duration="7774000" />
+      <workItem from="1574663367008" duration="11013000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -280,43 +282,50 @@
       <option name="project" value="LOCAL" />
       <updated>1574412481447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3.无重复字符的最长子串">
+      <created>1574671516531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574671516531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LengthOfLongestSubstring_test - 2019.11.25 at 15h 55m 20s.xml">
-      <configuration name="LengthOfLongestSubstring.test" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 01m 59s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 15h 59m 35s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 04m 28s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 16h 03m 17s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 04m 43s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 16h 04m 15s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 04m 56s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 16h 05m 12s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 05m 20s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 16h 05m 39s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 07m 10s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 16h 07m 53s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 08m 11s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 16h 09m 43s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 15m 16s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring - 2019.11.25 at 16h 10m 11s.xml">
-      <configuration name="LengthOfLongestSubstring" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 16m 10s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLongestSubstring_test - 2019.11.25 at 16h 10m 32s.xml">
-      <configuration name="LengthOfLongestSubstring.test" configurationId="JUnit" />
+    <history-entry file="IntReverse_test - 2019.11.25 at 17h 28m 39s.xml">
+      <configuration name="IntReverse.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29333000" />
+    <option name="totallyTimeSpent" value="32572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +349,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28958786" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28958786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30585682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,7 +436,8 @@
     <MESSAGE value="1.两数之和" />
     <MESSAGE value="优化" />
     <MESSAGE value="两数相加" />
-    <option name="LAST_COMMIT_MESSAGE" value="两数相加" />
+    <MESSAGE value="3.无重复字符的最长子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.无重复字符的最长子串" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -512,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -531,14 +534,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
+        <state relative-caret-position="322">
+          <caret line="208" column="7" lean-forward="true" selection-start-line="208" selection-start-column="7" selection-end-line="208" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" />
             <element signature="method#allUnique#0;class#LengthOfLongestSubstring#0" />
             <element signature="e#2136#2147#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/IntReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
         </state>
       </provider>
     </entry>
