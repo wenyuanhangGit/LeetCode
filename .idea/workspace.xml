@@ -18,10 +18,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/Palindrome.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="149" column="61" selection-start-line="149" selection-start-column="61" selection-end-line="149" selection-end-column="61" />
+            <state relative-caret-position="600">
+              <caret line="57" column="86" lean-forward="true" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
+              <folding>
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,6 +53,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/LengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/IntReverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java" />
       </list>
     </option>
   </component>
@@ -117,7 +122,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574761559442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575364082484" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jz-leasing-sk/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -138,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Palindrome.test">
+  <component name="RunManager" selected="JUnit.LongestPalindrome">
     <configuration name="IntReverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -186,6 +191,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.LongestPalindrome" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindrome.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.LongestPalindrome" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Palindrome.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -202,45 +238,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoAdd.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.TwoAdd" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.TwoSum" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindrome" />
+        <item itemvalue="JUnit.LongestPalindrome.test" />
         <item itemvalue="JUnit.Palindrome.test" />
         <item itemvalue="JUnit.IntReverse.test" />
         <item itemvalue="JUnit.LengthOfLongestSubstring" />
-        <item itemvalue="JUnit.TwoAdd.test" />
-        <item itemvalue="JUnit.TwoSum.test" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +261,12 @@
       <workItem from="1574391776579" duration="14922000" />
       <workItem from="1574643220215" duration="6637000" />
       <workItem from="1574663367008" duration="12603000" />
-      <workItem from="1574729482684" duration="3768000" />
+      <workItem from="1574729482684" duration="4409000" />
+      <workItem from="1574816558778" duration="8052000" />
+      <workItem from="1574902695727" duration="596000" />
+      <workItem from="1574988581649" duration="597000" />
+      <workItem from="1575248352292" duration="629000" />
+      <workItem from="1575335471409" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -301,43 +310,50 @@
       <option name="project" value="LOCAL" />
       <updated>1574674992669</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="9.回文数">
+      <created>1574761714836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574761714836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Palindrome_test - 2019.11.26 at 16h 43m 41s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 36m 57s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 16h 45m 40s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 37m 10s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 16h 45m 55s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 37m 18s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 17h 12m 17s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 38m 16s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 17h 12m 45s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 38m 44s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 17h 12m 55s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 42m 48s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 17h 13m 32s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 45m 22s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 17h 14m 24s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 14h 45m 53s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 17h 14m 38s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome_test - 2019.11.27 at 17h 39m 59s.xml">
+      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Palindrome_test - 2019.11.26 at 17h 16m 43s.xml">
-      <configuration name="Palindrome.test" configurationId="JUnit" />
+    <history-entry file="LongestPalindrome - 2019.11.27 at 17h 41m 03s.xml">
+      <configuration name="LongestPalindrome" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37930000" />
+    <option name="totallyTimeSpent" value="49125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,7 +368,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.22228146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.23400854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -361,7 +377,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27982646" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2451193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30585682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,7 +480,8 @@
     <MESSAGE value="两数相加" />
     <MESSAGE value="3.无重复字符的最长子串" />
     <MESSAGE value="7.整数反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.整数反转" />
+    <MESSAGE value="9.回文数" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.回文数" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -595,8 +612,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="149" column="61" selection-start-line="149" selection-start-column="61" selection-end-line="149" selection-end-column="61" />
+        <state relative-caret-position="1334">
+          <caret line="136" column="46" selection-start-line="136" selection-start-column="46" selection-end-line="136" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="57" column="86" lean-forward="true" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
