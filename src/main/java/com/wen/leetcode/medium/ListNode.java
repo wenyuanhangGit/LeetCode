@@ -1,4 +1,4 @@
-package com.wen.leetcode;
+package com.wen.leetcode.medium;
 
 public class ListNode {
 

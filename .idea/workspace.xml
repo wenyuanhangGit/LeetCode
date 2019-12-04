@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,16 +17,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="175" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="700">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
-                <element signature="method#longestPalindrome#0;class#LongestPalindrome#0" />
-                <element signature="method#longestPalindrome2#0;class#LongestPalindrome#0" />
-                <element signature="method#longestPalindrome3#0;class#LongestPalindrome#0" />
-                <element signature="method#longestPalindrome4#0;class#LongestPalindrome#0" />
+                <element signature="method#addTwoNumbers2#0;class#TwoAdd#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#twoSum2#0;class#TwoSum#0" />
+                <element signature="method#twoSum3#0;class#TwoSum#0" />
               </folding>
             </state>
           </provider>
@@ -125,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575428359746" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575428730416" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jz-leasing-sk/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -133,6 +143,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27816093" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\LeetCode" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,12 +166,12 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.IntReverse" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.IntReverse" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -167,12 +182,12 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.LengthOfLongestSubstring" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LengthOfLongestSubstring" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,12 +197,12 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.LengthOfLongestSubstring" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LengthOfLongestSubstring" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -198,12 +213,12 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.LongestPalindrome" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LongestPalindrome" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,12 +228,12 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.LongestPalindrome" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LongestPalindrome" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -229,12 +244,12 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.Palindrome" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.Palindrome" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -270,7 +285,7 @@
       <workItem from="1574988581649" duration="597000" />
       <workItem from="1575248352292" duration="629000" />
       <workItem from="1575335471409" duration="2436000" />
-      <workItem from="1575420675729" duration="6293000" />
+      <workItem from="1575420675729" duration="6536000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -328,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575364104262</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="5. 最长回文子串 添加新解法">
+      <created>1575428359317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575428359317</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add gitignore">
+      <created>1575428436133</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575428436133</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -364,7 +393,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57174000" />
+    <option name="totallyTimeSpent" value="57417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,7 +408,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17697228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -388,7 +417,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2537961" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28524947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30585682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,7 +523,9 @@
     <MESSAGE value="7.整数反转" />
     <MESSAGE value="9.回文数" />
     <MESSAGE value="5. 最长回文子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. 最长回文子串" />
+    <MESSAGE value="5. 最长回文子串 添加新解法" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -546,28 +577,6 @@
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1503">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="method#addTwoNumbers2#0;class#TwoAdd#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#twoSum2#0;class#TwoSum#0" />
-            <element signature="method#twoSum3#0;class#TwoSum#0" />
           </folding>
         </state>
       </provider>
@@ -630,15 +639,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="597">
+          <caret line="177" column="9" lean-forward="true" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
           <folding>
             <element signature="method#longestPalindrome#0;class#LongestPalindrome#0" />
             <element signature="method#longestPalindrome2#0;class#LongestPalindrome#0" />
             <element signature="method#longestPalindrome3#0;class#LongestPalindrome#0" />
             <element signature="method#longestPalindrome4#0;class#LongestPalindrome#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="method#addTwoNumbers2#0;class#TwoAdd#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#twoSum2#0;class#TwoSum#0" />
+            <element signature="method#twoSum3#0;class#TwoSum#0" />
           </folding>
         </state>
       </provider>
