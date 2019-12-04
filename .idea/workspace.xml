@@ -17,28 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Atoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="497">
+              <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
               <folding>
-                <element signature="method#addTwoNumbers2#0;class#TwoAdd#0" />
+                <element signature="method#myAtoi#0;class#Atoi#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/IntReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#twoSum2#0;class#TwoSum#0" />
-                <element signature="method#twoSum3#0;class#TwoSum#0" />
-              </folding>
+            <state relative-caret-position="-578">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -67,6 +62,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/IntReverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/IntReverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Atoi.java" />
       </list>
     </option>
   </component>
@@ -124,6 +123,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -135,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575428730416" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575451010998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jz-leasing-sk/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -161,7 +178,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPalindrome.test">
+  <component name="RunManager" selected="JUnit.Atoi.test">
+    <configuration name="Atoi.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.Atoi" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntReverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -174,21 +207,6 @@
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.IntReverse" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LengthOfLongestSubstring" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Atoi.test" />
         <item itemvalue="JUnit.LongestPalindrome.test" />
         <item itemvalue="JUnit.LongestPalindrome" />
         <item itemvalue="JUnit.Palindrome.test" />
         <item itemvalue="JUnit.IntReverse.test" />
-        <item itemvalue="JUnit.LengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +303,7 @@
       <workItem from="1574988581649" duration="597000" />
       <workItem from="1575248352292" duration="629000" />
       <workItem from="1575335471409" duration="2436000" />
-      <workItem from="1575420675729" duration="6536000" />
+      <workItem from="1575420675729" duration="16911000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -357,43 +375,50 @@
       <option name="project" value="LOCAL" />
       <updated>1575428436133</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="调整分类">
+      <created>1575428781819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575428781819</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 09h 41m 08s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 00m 21s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 09h 56m 52s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 00m 34s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 09h 57m 19s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 00m 46s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 09h 57m 28s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 01m 48s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 10h 02m 22s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 04m 47s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 10h 02m 34s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 07m 43s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 10h 27m 47s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 08m 57s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 10h 29m 05s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 09m 53s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 10h 31m 14s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 10m 04s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestPalindrome_test - 2019.12.04 at 10h 32m 11s.xml">
-      <configuration name="LongestPalindrome.test" configurationId="JUnit" />
+    <history-entry file="Atoi_test - 2019.12.04 at 17h 10m 28s.xml">
+      <configuration name="Atoi.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57417000" />
+    <option name="totallyTimeSpent" value="67792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,7 +433,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17697228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -418,9 +443,9 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28524947" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30585682" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.36767897" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
@@ -440,7 +465,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.23667377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -449,7 +474,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2559653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28524947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30585682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,10 +550,16 @@
     <MESSAGE value="5. 最长回文子串" />
     <MESSAGE value="5. 最长回文子串 添加新解法" />
     <MESSAGE value="add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+    <MESSAGE value="调整分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整分类" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="(str.charAt(0) != '-' || str.charAt(0) != '+')" language="JAVA" />
+        <watch expression="(str.charAt(0) != '-' || str.charAt(0) != '+')" language="JAVA" />
+        <watch expression="1&lt;&lt;31" language="JAVA" />
+      </configuration>
       <configuration name="Application">
         <watch expression="(6-3) &amp; 2047" language="JAVA" />
         <watch expression="2047 &amp; 2047" language="JAVA" />
@@ -539,6 +570,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>1&lt;&lt;31</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(str.charAt(0) != '-' || str.charAt(0) != '+')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>2049&amp;2047</expression-string>
         <language-id>JAVA</language-id>
@@ -560,6 +601,13 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(str.charAt(0) != '-' || str.charAt(0) != '+')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -570,44 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/core/AllOf.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="208" column="7" lean-forward="true" selection-start-line="208" selection-start-column="7" selection-end-line="208" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" />
-            <element signature="method#allUnique#0;class#LengthOfLongestSubstring#0" />
-            <element signature="e#2136#2147#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,27 +639,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/IntReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="136" column="46" selection-start-line="136" selection-start-column="46" selection-end-line="136" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/LongestPalindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="177" column="9" lean-forward="true" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
+        <state relative-caret-position="515">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#twoSum2#0;class#TwoSum#0" />
+            <element signature="method#twoSum3#0;class#TwoSum#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="method#longestPalindrome#0;class#LongestPalindrome#0" />
             <element signature="method#longestPalindrome2#0;class#LongestPalindrome#0" />
@@ -655,24 +681,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoAdd.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/TwoAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="290">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="method#addTwoNumbers2#0;class#TwoAdd#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="298">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#twoSum2#0;class#TwoSum#0" />
-            <element signature="method#twoSum3#0;class#TwoSum#0" />
+            <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" />
+            <element signature="method#allUnique#0;class#LengthOfLongestSubstring#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/IntReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Atoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+          <folding>
+            <element signature="method#myAtoi#0;class#Atoi#0" />
           </folding>
         </state>
       </provider>
