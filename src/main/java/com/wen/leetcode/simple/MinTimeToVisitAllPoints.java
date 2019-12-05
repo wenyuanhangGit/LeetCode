@@ -51,7 +51,7 @@ public class MinTimeToVisitAllPoints {
     public int minTimeToVisitAllPoints(int[][] points) {
         int result = 0;
         int length = points.length;
-        for (int i = 0, x, y, max; i < length - 1; i++) {
+        for (int i = 0, x, y; i < length - 1; i++) {
             x = Math.abs(points[i][0] - points[i+1][0]);
             y = Math.abs(points[i][1] - points[i+1][1]);
             result += x > y ? x : y;
