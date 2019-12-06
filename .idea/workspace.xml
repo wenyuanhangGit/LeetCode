@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
+    <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="1266.访问所有点的最小时间 fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="4c941774-c4a2-4d57-a665-00299835dcd3" name="Not Commit" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ZigzagConversion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/MinTimeToVisitAllPoints.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SpiralMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+            <state relative-caret-position="622">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -58,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ZigzagConversion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/MinTimeToVisitAllPoints.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SpiralMatrix.java" />
       </list>
     </option>
   </component>
@@ -82,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,19 +128,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575539676614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575602436815" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jz-leasing-sk/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -161,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinTimeToVisitAllPoints.test">
+  <component name="RunManager" selected="JUnit.SpiralMatrix.test">
     <configuration name="Atoi.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -194,22 +198,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LongestPalindrome" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinTimeToVisitAllPoints.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -220,6 +208,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.MinTimeToVisitAllPoints" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralMatrix.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.SpiralMatrix" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -260,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiralMatrix.test" />
         <item itemvalue="JUnit.MinTimeToVisitAllPoints.test" />
         <item itemvalue="JUnit.ThreeSum.test" />
         <item itemvalue="JUnit.ZigzagConversion.test" />
         <item itemvalue="JUnit.Atoi.test" />
-        <item itemvalue="JUnit.LongestPalindrome.test" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +278,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="" />
+      <changelist id="4c941774-c4a2-4d57-a665-00299835dcd3" name="Not Commit" comment="" />
       <created>1574391768608</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -288,7 +293,8 @@
       <workItem from="1575248352292" duration="629000" />
       <workItem from="1575335471409" duration="2436000" />
       <workItem from="1575420675729" duration="19711000" />
-      <workItem from="1575507899512" duration="13269000" />
+      <workItem from="1575507899512" duration="13805000" />
+      <workItem from="1575593488592" duration="5368000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -381,43 +387,57 @@
       <option name="project" value="LOCAL" />
       <updated>1575526288807</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1266.访问所有点的最小时间">
+      <created>1575539727614</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575539727614</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1266.访问所有点的最小时间 fix">
+      <created>1575539746194</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575539746194</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 22m 37s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 10h 56m 33s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 38m 48s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 10h 57m 08s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 39m 29s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 10h 58m 28s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 40m 18s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 11h 03m 26s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 41m 38s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 11h 03m 52s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 42m 26s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 11h 04m 11s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 45m 12s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 11h 04m 40s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 45m 24s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 11h 05m 01s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 51m 28s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 11h 05m 33s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinTimeToVisitAllPoints_test - 2019.12.05 at 17h 53m 55s.xml">
-      <configuration name="MinTimeToVisitAllPoints.test" configurationId="JUnit" />
+    <history-entry file="SpiralMatrix_test - 2019.12.06 at 11h 06m 38s.xml">
+      <configuration name="SpiralMatrix.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83861000" />
+    <option name="totallyTimeSpent" value="89765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +452,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,10 +461,10 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2537961" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2494577" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.36767897" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.38177875" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
@@ -452,7 +472,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.29718006" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32212582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -552,7 +572,9 @@
     <MESSAGE value="调整分类" />
     <MESSAGE value="8. 字符串转换整数 (atoi)" />
     <MESSAGE value="15.三数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.三数之和" />
+    <MESSAGE value="1266.访问所有点的最小时间" />
+    <MESSAGE value="1266.访问所有点的最小时间 fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="1266.访问所有点的最小时间 fix" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -759,8 +781,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/MinTimeToVisitAllPoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        <state relative-caret-position="622">
+          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SpiralMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
         </state>
       </provider>
     </entry>
