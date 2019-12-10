@@ -21,14 +21,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SubSets.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RevealCardsInIncreasingOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+            <state relative-caret-position="1638">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SpiralMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Subsets.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SubSets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RevealCardsInIncreasingOrder.java" />
       </list>
     </option>
   </component>
@@ -80,10 +79,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="745" />
-    <option name="y" value="1" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="867" />
+    <option name="width" value="1400" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -93,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -141,13 +138,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575614365741" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jz-leasing-sk/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575948018214" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMicroServiceAction/spmia-chapter5/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -172,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubSets.test">
+  <component name="RunManager" selected="JUnit.RevealCardsInIncreasingOrder.test">
     <configuration name="LengthOfLongestSubstring.test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -199,6 +197,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.MinTimeToVisitAllPoints" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevealCardsInIncreasingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.RevealCardsInIncreasingOrder" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevealCardsInIncreasingOrder.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.RevealCardsInIncreasingOrder" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -237,45 +266,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.ThreeSum" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigzagConversion.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.ZigzagConversion" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RevealCardsInIncreasingOrder.test" />
+        <item itemvalue="JUnit.RevealCardsInIncreasingOrder" />
         <item itemvalue="JUnit.SubSets.test" />
         <item itemvalue="JUnit.SpiralMatrix.test" />
         <item itemvalue="JUnit.MinTimeToVisitAllPoints.test" />
-        <item itemvalue="JUnit.ThreeSum.test" />
-        <item itemvalue="JUnit.ZigzagConversion.test" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +298,9 @@
       <workItem from="1575335471409" duration="2436000" />
       <workItem from="1575420675729" duration="19711000" />
       <workItem from="1575507899512" duration="13805000" />
-      <workItem from="1575593488592" duration="10325000" />
+      <workItem from="1575593488592" duration="13268000" />
+      <workItem from="1575852823345" duration="757000" />
+      <workItem from="1575939797697" duration="7287000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -415,31 +414,17 @@
       <option name="project" value="LOCAL" />
       <updated>1575602464586</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="78.子集">
+      <created>1575614390046</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575614390046</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubSets_test - 2019.12.06 at 11h 55m 35s.xml">
-      <configuration name="SubSets.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubSets_test - 2019.12.06 at 11h 55m 41s.xml">
-      <configuration name="SubSets.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubSets_test - 2019.12.06 at 11h 56m 46s.xml">
-      <configuration name="SubSets.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubSets_test - 2019.12.06 at 11h 57m 08s.xml">
-      <configuration name="SubSets.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubSets_test - 2019.12.06 at 14h 14m 33s.xml">
-      <configuration name="SubSets.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubSets_test - 2019.12.06 at 14h 14m 47s.xml">
-      <configuration name="SubSets.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubSets_test - 2019.12.06 at 14h 17m 34s.xml">
-      <configuration name="SubSets.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SubSets_test - 2019.12.06 at 14h 23m 13s.xml">
       <configuration name="SubSets.test" configurationId="JUnit" />
     </history-entry>
@@ -449,9 +434,30 @@
     <history-entry file="SubSets_test - 2019.12.06 at 14h 36m 00s.xml">
       <configuration name="SubSets.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RevealCardsInIncreasingOrder - 2019.12.10 at 09h 34m 24s.xml">
+      <configuration name="RevealCardsInIncreasingOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevealCardsInIncreasingOrder - 2019.12.10 at 09h 35m 20s.xml">
+      <configuration name="RevealCardsInIncreasingOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevealCardsInIncreasingOrder - 2019.12.10 at 09h 35m 40s.xml">
+      <configuration name="RevealCardsInIncreasingOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevealCardsInIncreasingOrder_test - 2019.12.10 at 10h 07m 36s.xml">
+      <configuration name="RevealCardsInIncreasingOrder.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevealCardsInIncreasingOrder - 2019.12.10 at 10h 58m 16s.xml">
+      <configuration name="RevealCardsInIncreasingOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevealCardsInIncreasingOrder - 2019.12.10 at 10h 58m 26s.xml">
+      <configuration name="RevealCardsInIncreasingOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevealCardsInIncreasingOrder_test - 2019.12.10 at 11h 11m 20s.xml">
+      <configuration name="RevealCardsInIncreasingOrder.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94722000" />
+    <option name="totallyTimeSpent" value="105709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,10 +469,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="867" y="0" width="1400" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.20575693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -475,13 +481,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27440348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27382258" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.36442515" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.29718006" />
@@ -589,7 +595,8 @@
     <MESSAGE value="1266.访问所有点的最小时间" />
     <MESSAGE value="1266.访问所有点的最小时间 fix" />
     <MESSAGE value="59.螺旋矩阵 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="59.螺旋矩阵 II" />
+    <MESSAGE value="78.子集" />
+    <option name="LAST_COMMIT_MESSAGE" value="78.子集" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -817,12 +824,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SubSets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+        <state relative-caret-position="372">
+          <caret line="94" column="53" lean-forward="true" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#530#531#0" expanded="true" />
             <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RevealCardsInIncreasingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
