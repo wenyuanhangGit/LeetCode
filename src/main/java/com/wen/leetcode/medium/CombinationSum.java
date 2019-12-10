@@ -45,7 +45,7 @@ public class CombinationSum {
 
     @Test
     public void test() {
-        System.out.println(combinationSum2(new int[]{2, 3, 6, 7}, 7));
+        System.out.println(combinationSum3(new int[]{2, 3, 6, 7}, 7));
     }
 
     /**
@@ -81,7 +81,6 @@ public class CombinationSum {
         }
     }
 
-
     /**
      * 回溯算法+剪枝
      * @param candidates 数组
@@ -97,7 +96,7 @@ public class CombinationSum {
         Arrays.sort(candidates);
         this.len = len;
         this.candidates = candidates;
-        findCombinationSum(target, 0, new Stack<>());
+        findCombinationSum2(target, 0, new Stack<>());
         return res;
     }
 
@@ -105,7 +104,11 @@ public class CombinationSum {
     private int[] candidates;
     private int len;
 
-    private void findCombinationSum(int residue, int start, Stack<Integer> pre) {
+    private void findCombinationSum2(int residue, int start, Stack<Integer> pre) {
+        //剪枝
+        if (residue < 0) {
+            return;
+        }
         if (residue == 0) {
             // Java 中可变对象是引用传递，因此需要将当前 path 里的值拷贝出来
             res.add(new ArrayList<>(pre));
@@ -117,7 +120,50 @@ public class CombinationSum {
         for (int i = start; i < len && residue - candidates[i] >= 0; i++) {
             pre.add(candidates[i]);
             // 【关键】因为元素可以重复使用，这里递归传递下去的是 i 而不是 i + 1
-            findCombinationSum(residue - candidates[i], i, pre);
+            findCombinationSum2(residue - candidates[i], i, pre);
+            pre.pop();
+        }
+    }
+
+    /**
+     * 回溯算法+剪枝。利用加法做。
+     * @param candidates 数组
+     * @param target 目标数值
+     * @return 结果
+     */
+    public List<List<Integer>> combinationSum3(int[] candidates, int target) {
+        int len = candidates.length;
+        if (len == 0) {
+            return res;
+        }
+        // 优化添加的代码1：先对数组排序，可以提前终止判断
+        Arrays.sort(candidates);
+        this.len = len;
+        this.candidates = candidates;
+        this.target = target;
+        findCombinationSum3(0, 0, new Stack<>());
+        return res;
+    }
+
+    private int target;
+
+    private void findCombinationSum3(int residue, int start, Stack<Integer> pre) {
+        //剪枝
+        if (residue > this.target) {
+            return;
+        }
+        if (residue == this.target) {
+            // Java 中可变对象是引用传递，因此需要将当前 path 里的值拷贝出来
+            res.add(new ArrayList<>(pre));
+            return;
+        }
+        // 优化添加的代码2：在循环的时候做判断，尽量避免系统栈的深度
+        // residue - candidates[i] 表示下一轮的剩余，如果下一轮的剩余都小于 0 ，就没有必要进行后面的循环了
+        // 这一点基于原始数组是排序数组的前提，因为如果计算后面的剩余，只会越来越小
+        for (int i = start; i < len && residue + candidates[i] <= this.target; i++) {
+            pre.add(candidates[i]);
+            // 【关键】因为元素可以重复使用，这里递归传递下去的是 i 而不是 i + 1
+            findCombinationSum3(residue + candidates[i], i, pre);
             pre.pop();
         }
     }
