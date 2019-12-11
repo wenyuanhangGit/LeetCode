@@ -21,14 +21,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Permutations.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PermutationsII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+            <state relative-caret-position="567">
+              <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSumII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSumIII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PermutationsII.java" />
       </list>
     </option>
   </component>
@@ -85,8 +84,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="941" />
-    <option name="y" value="15" />
+    <option name="x" value="748" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="1001" />
   </component>
@@ -151,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576048178181" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576055084878" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMicroServiceAction/spmia-chapter5/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -177,22 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Permutations.test">
-    <configuration name="CombinationSumII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CombinationSumII" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PermutationsII">
     <configuration name="CombinationSumIII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -204,22 +188,6 @@
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CombinationSumIII" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CombinationSumIII.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CombinationSumIII" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,6 +223,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PermutationsII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.PermutationsII" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationsII.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.PermutationsII" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Permutations.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -273,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PermutationsII" />
+        <item itemvalue="JUnit.PermutationsII.test" />
         <item itemvalue="JUnit.Permutations.test" />
         <item itemvalue="JUnit.Permutations" />
         <item itemvalue="JUnit.CombinationSumIII" />
-        <item itemvalue="JUnit.CombinationSumIII.test" />
-        <item itemvalue="JUnit.CombinationSumII" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +305,7 @@
       <workItem from="1575593488592" duration="13268000" />
       <workItem from="1575852823345" duration="757000" />
       <workItem from="1575939797697" duration="19836000" />
-      <workItem from="1576025465830" duration="15612000" />
+      <workItem from="1576025465830" duration="21794000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -469,43 +468,50 @@
       <option name="project" value="LOCAL" />
       <updated>1576036614182</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="46. 全排列">
+      <created>1576048396598</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576048396598</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Permutations - 2019.12.11 at 14h 01m 56s.xml">
-      <configuration name="Permutations" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 16m 20s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations - 2019.12.11 at 14h 02m 06s.xml">
-      <configuration name="Permutations" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 16m 49s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations - 2019.12.11 at 14h 03m 32s.xml">
-      <configuration name="Permutations" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 16m 55s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations - 2019.12.11 at 14h 08m 29s.xml">
-      <configuration name="Permutations" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 17m 14s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations_test - 2019.12.11 at 14h 54m 14s.xml">
-      <configuration name="Permutations.test" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 17m 48s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations_test - 2019.12.11 at 14h 58m 41s.xml">
-      <configuration name="Permutations.test" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 21m 02s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations_test - 2019.12.11 at 14h 58m 58s.xml">
-      <configuration name="Permutations.test" configurationId="JUnit" />
+    <history-entry file="PermutationsII_test - 2019.12.11 at 16h 29m 23s.xml">
+      <configuration name="PermutationsII.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations_test - 2019.12.11 at 14h 59m 12s.xml">
-      <configuration name="Permutations.test" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 29m 43s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations - 2019.12.11 at 14h 59m 48s.xml">
-      <configuration name="Permutations" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 33m 11s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permutations_test - 2019.12.11 at 15h 08m 26s.xml">
-      <configuration name="Permutations.test" configurationId="JUnit" />
+    <history-entry file="PermutationsII - 2019.12.11 at 16h 33m 59s.xml">
+      <configuration name="PermutationsII" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133870000" />
+    <option name="totallyTimeSpent" value="140052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,7 +523,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="748" y="23" width="1400" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.32089552" />
@@ -529,7 +535,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19739696" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22260669" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.36442515" />
@@ -540,7 +546,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.29718006" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32101616" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3206459" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,7 +567,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2260669" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20991926" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.36442515" />
@@ -649,7 +655,8 @@
     <MESSAGE value="39. 组合总和  剪枝，加法做" />
     <MESSAGE value="40. 组合总和 II" />
     <MESSAGE value="216. 组合总和 III" />
-    <option name="LAST_COMMIT_MESSAGE" value="216. 组合总和 III" />
+    <MESSAGE value="46. 全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="46. 全排列" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -951,6 +958,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#494#495#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PermutationsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
