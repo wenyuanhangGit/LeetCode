@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="39. 组合总和">
+    <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java" afterDir="false" />
     </list>
     <list id="4c941774-c4a2-4d57-a665-00299835dcd3" name="Not Commit" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ZigzagConversion.java" afterDir="false" />
@@ -22,18 +21,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSumII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1153">
-              <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="766">
+              <caret line="166" column="5" lean-forward="true" selection-start-line="142" selection-start-column="4" selection-end-line="166" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="method#combinationSum#0;class#CombinationSum#0" />
-                <element signature="method#find#0;class#CombinationSum#0" />
-                <element signature="method#combinationSum2#0;class#CombinationSum#0" />
-                <element signature="method#findCombinationSum#0;class#CombinationSum#0" />
+                <element signature="method#combinationSum2#0;class#CombinationSumII#0" />
+                <element signature="method#findCombinationSum2#0;class#CombinationSumII#0" />
+                <element signature="method#combinationSum2#1;class#CombinationSumII#0" />
+                <element signature="method#findCombinationSum2#1;class#CombinationSumII#0" />
               </folding>
             </state>
           </provider>
@@ -76,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/SubSets.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RevealCardsInIncreasingOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSumII.java" />
       </list>
     </option>
   </component>
@@ -87,8 +85,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="864" />
-    <option name="y" value="6" />
+    <option name="x" value="773" />
+    <option name="y" value="14" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -153,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575970260850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576034656201" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMicroServiceAction/spmia-chapter5/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -179,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CombinationSum">
+  <component name="RunManager" selected="JUnit.CombinationSumII">
     <configuration name="CombinationSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -191,6 +189,37 @@
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CombinationSum" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationSumII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CombinationSumII" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationSumII.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CombinationSumII" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,21 +256,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevealCardsInIncreasingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.RevealCardsInIncreasingOrder" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RevealCardsInIncreasingOrder.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -258,29 +272,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSets.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.SubSets" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CombinationSumII" />
+        <item itemvalue="JUnit.CombinationSumII.test" />
         <item itemvalue="JUnit.CombinationSum" />
         <item itemvalue="JUnit.CombinationSum.test" />
         <item itemvalue="JUnit.RevealCardsInIncreasingOrder.test" />
-        <item itemvalue="JUnit.RevealCardsInIncreasingOrder" />
-        <item itemvalue="JUnit.SubSets.test" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +306,8 @@
       <workItem from="1575507899512" duration="13805000" />
       <workItem from="1575593488592" duration="13268000" />
       <workItem from="1575852823345" duration="757000" />
-      <workItem from="1575939797697" duration="17821000" />
+      <workItem from="1575939797697" duration="19836000" />
+      <workItem from="1576025465830" duration="7646000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -443,43 +442,50 @@
       <option name="project" value="LOCAL" />
       <updated>1575967880889</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="39. 组合总和  剪枝，加法做">
+      <created>1575970307380</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575970307380</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RevealCardsInIncreasingOrder - 2019.12.10 at 10h 58m 26s.xml">
-      <configuration name="RevealCardsInIncreasingOrder" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 09h 43m 25s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RevealCardsInIncreasingOrder_test - 2019.12.10 at 11h 11m 20s.xml">
-      <configuration name="RevealCardsInIncreasingOrder.test" configurationId="JUnit" />
+    <history-entry file="CombinationSumII_test - 2019.12.11 at 09h 43m 35s.xml">
+      <configuration name="CombinationSumII.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum_test - 2019.12.10 at 15h 08m 03s.xml">
-      <configuration name="CombinationSum.test" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 10h 15m 37s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum - 2019.12.10 at 15h 10m 52s.xml">
-      <configuration name="CombinationSum" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 10h 16m 19s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum - 2019.12.10 at 15h 11m 10s.xml">
-      <configuration name="CombinationSum" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 10h 16m 48s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum - 2019.12.10 at 15h 26m 22s.xml">
-      <configuration name="CombinationSum" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 11h 02m 06s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum - 2019.12.10 at 15h 26m 41s.xml">
-      <configuration name="CombinationSum" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 11h 02m 38s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum - 2019.12.10 at 15h 31m 14s.xml">
-      <configuration name="CombinationSum" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 11h 18m 38s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum_test - 2019.12.10 at 16h 38m 46s.xml">
-      <configuration name="CombinationSum.test" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 11h 19m 48s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum_test - 2019.12.10 at 17h 25m 33s.xml">
-      <configuration name="CombinationSum.test" configurationId="JUnit" />
+    <history-entry file="CombinationSumII - 2019.12.11 at 11h 21m 08s.xml">
+      <configuration name="CombinationSumII" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116243000" />
+    <option name="totallyTimeSpent" value="125904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,10 +497,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="773" y="14" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.20522387" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.28731343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -502,8 +508,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28741866" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22632794" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.36442515" />
@@ -526,7 +532,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.20522387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.28731343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -534,8 +540,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2886836" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23969631" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.36442515" />
@@ -620,7 +626,8 @@
     <MESSAGE value="78.子集" />
     <MESSAGE value="950. 按递增顺序显示卡牌" />
     <MESSAGE value="39. 组合总和" />
-    <option name="LAST_COMMIT_MESSAGE" value="39. 组合总和" />
+    <MESSAGE value="39. 组合总和  剪枝，加法做" />
+    <option name="LAST_COMMIT_MESSAGE" value="39. 组合总和  剪枝，加法做" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -870,16 +877,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1153">
-          <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state relative-caret-position="250">
+          <caret line="149" column="48" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
             <element signature="method#combinationSum#0;class#CombinationSum#0" />
             <element signature="method#find#0;class#CombinationSum#0" />
             <element signature="method#combinationSum2#0;class#CombinationSum#0" />
-            <element signature="method#findCombinationSum#0;class#CombinationSum#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSumII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="166" column="5" lean-forward="true" selection-start-line="142" selection-start-column="4" selection-end-line="166" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#combinationSum2#0;class#CombinationSumII#0" />
+            <element signature="method#findCombinationSum2#0;class#CombinationSumII#0" />
+            <element signature="method#combinationSum2#1;class#CombinationSumII#0" />
+            <element signature="method#findCombinationSum2#1;class#CombinationSumII#0" />
           </folding>
         </state>
       </provider>
