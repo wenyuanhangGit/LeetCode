@@ -20,15 +20,15 @@
     <favorites_list name="LeetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/NumberOf1Bits.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/DivisorGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+            <state relative-caret-position="172">
+              <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
               <folding>
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountingBits.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/NumberOf1Bits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/DivisorGame.java" />
       </list>
     </option>
   </component>
@@ -107,8 +108,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="923" />
-    <option name="y" value="1" />
+    <option name="x" value="948" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -120,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,15 +167,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577086194198" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577170336172" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMicroServiceAction/spmia-chapter9/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -199,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOf1Bits.test">
+  <component name="RunManager" selected="JUnit.DivisorGame">
     <configuration name="CountingBits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -215,33 +215,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingBits.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivisorGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CountingBits" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.DivisorGame" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameOfLife" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivisorGame.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.GameOfLife" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.DivisorGame" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -295,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivisorGame" />
+        <item itemvalue="JUnit.DivisorGame.test" />
         <item itemvalue="JUnit.NumberOf1Bits.test" />
         <item itemvalue="JUnit.NumberOf1Bits" />
         <item itemvalue="JUnit.CountingBits" />
-        <item itemvalue="JUnit.CountingBits.test" />
-        <item itemvalue="JUnit.GameOfLife" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +335,8 @@
       <workItem from="1576544328744" duration="1965000" />
       <workItem from="1576630760292" duration="646000" />
       <workItem from="1576717039842" duration="597000" />
-      <workItem from="1577062954406" duration="13687000" />
+      <workItem from="1577062954406" duration="14438000" />
+      <workItem from="1577149569521" duration="11848000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -519,43 +520,50 @@
       <option name="project" value="LOCAL" />
       <updated>1577072549950</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="191. 位1的个数">
+      <created>1577086212279</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1577086212279</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 10m 28s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame_test - 2019.12.24 at 14h 15m 38s.xml">
+      <configuration name="DivisorGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 10m 45s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 16m 44s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits_test - 2019.12.23 at 14h 14m 14s.xml">
-      <configuration name="NumberOf1Bits.test" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 21m 37s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 14m 42s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame_test - 2019.12.24 at 14h 23m 25s.xml">
+      <configuration name="DivisorGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 14m 52s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 43m 18s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 15m 22s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 46m 59s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 15m 57s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 47m 45s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 16m 05s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 48m 30s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits - 2019.12.23 at 14h 16m 14s.xml">
-      <configuration name="NumberOf1Bits" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 48m 41s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOf1Bits_test - 2019.12.23 at 14h 17m 23s.xml">
-      <configuration name="NumberOf1Bits.test" configurationId="JUnit" />
+    <history-entry file="DivisorGame - 2019.12.24 at 14h 51m 31s.xml">
+      <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168365000" />
+    <option name="totallyTimeSpent" value="180964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,10 +575,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="923" y="1" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.19189766" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.19402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -579,16 +587,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2451193" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.29067245" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.37744033" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.29642445" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.29609543" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31995663" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -602,7 +610,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19189766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -611,10 +619,10 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27440348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.36442515" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.29067245" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -702,15 +710,11 @@
     <MESSAGE value="46. 全排列" />
     <MESSAGE value="47. 全排列 II" />
     <MESSAGE value="338. 比特位计数" />
-    <option name="LAST_COMMIT_MESSAGE" value="338. 比特位计数" />
+    <MESSAGE value="191. 位1的个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="191. 位1的个数" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="(str.charAt(0) != '-' || str.charAt(0) != '+')" language="JAVA" />
-        <watch expression="(str.charAt(0) != '-' || str.charAt(0) != '+')" language="JAVA" />
-        <watch expression="1&lt;&lt;31" language="JAVA" />
-      </configuration>
       <configuration name="Application">
         <watch expression="(6-3) &amp; 2047" language="JAVA" />
         <watch expression="2047 &amp; 2047" language="JAVA" />
@@ -809,16 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,11 +1049,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/NumberOf1Bits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+        <state relative-caret-position="197">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="e#902#903#0" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/DivisorGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
           </folding>
         </state>
       </provider>
