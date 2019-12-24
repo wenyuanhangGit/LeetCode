@@ -22,14 +22,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/DivisorGame.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/FindNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
-              <folding>
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="474">
+              <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -97,6 +93,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountingBits.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/NumberOf1Bits.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/DivisorGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/StoneGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/FindNumbers.java" />
       </list>
     </option>
   </component>
@@ -173,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577170336172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577177455438" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMicroServiceAction/spmia-chapter9/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,22 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DivisorGame">
-    <configuration name="CountingBits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CountingBits" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FindNumbers">
     <configuration name="DivisorGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -246,6 +229,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.FindNumbers" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LengthOfLongestSubstring.test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -258,21 +256,6 @@
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LengthOfLongestSubstring" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOf1Bits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.NumberOf1Bits" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -293,13 +276,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoneGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.StoneGame" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindNumbers" />
+        <item itemvalue="JUnit.StoneGame" />
         <item itemvalue="JUnit.DivisorGame" />
         <item itemvalue="JUnit.DivisorGame.test" />
         <item itemvalue="JUnit.NumberOf1Bits.test" />
-        <item itemvalue="JUnit.NumberOf1Bits" />
-        <item itemvalue="JUnit.CountingBits" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +334,7 @@
       <workItem from="1576630760292" duration="646000" />
       <workItem from="1576717039842" duration="597000" />
       <workItem from="1577062954406" duration="14438000" />
-      <workItem from="1577149569521" duration="11848000" />
+      <workItem from="1577149569521" duration="17358000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -527,22 +525,17 @@
       <option name="project" value="LOCAL" />
       <updated>1577086212279</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="1025. 除数博弈">
+      <created>1577170956027</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1577170956028</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DivisorGame_test - 2019.12.24 at 14h 15m 38s.xml">
-      <configuration name="DivisorGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 16m 44s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 21m 37s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame_test - 2019.12.24 at 14h 23m 25s.xml">
-      <configuration name="DivisorGame.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DivisorGame - 2019.12.24 at 14h 43m 18s.xml">
       <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
@@ -561,9 +554,21 @@
     <history-entry file="DivisorGame - 2019.12.24 at 14h 51m 31s.xml">
       <configuration name="DivisorGame" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StoneGame - 2019.12.24 at 15h 21m 09s.xml">
+      <configuration name="StoneGame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNumbers - 2019.12.24 at 16h 29m 35s.xml">
+      <configuration name="FindNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNumbers - 2019.12.24 at 16h 29m 57s.xml">
+      <configuration name="FindNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNumbers - 2019.12.24 at 16h 39m 25s.xml">
+      <configuration name="FindNumbers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180964000" />
+    <option name="totallyTimeSpent" value="186474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,7 +580,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="948" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.19402985" />
@@ -587,7 +592,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2451193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24186552" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.37744033" />
@@ -619,16 +624,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2451193" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.29067245" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.37744033" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.29642445" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.29609543" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31995663" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -686,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.两数之和" />
     <MESSAGE value="优化" />
     <MESSAGE value="两数相加" />
     <MESSAGE value="3.无重复字符的最长子串" />
@@ -711,7 +715,8 @@
     <MESSAGE value="47. 全排列 II" />
     <MESSAGE value="338. 比特位计数" />
     <MESSAGE value="191. 位1的个数" />
-    <option name="LAST_COMMIT_MESSAGE" value="191. 位1的个数" />
+    <MESSAGE value="1025. 除数博弈" />
+    <option name="LAST_COMMIT_MESSAGE" value="1025. 除数博弈" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1076,6 +1081,20 @@
             <element signature="e#673#674#0" expanded="true" />
             <element signature="e#709#710#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/StoneGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/FindNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
         </state>
       </provider>
     </entry>
