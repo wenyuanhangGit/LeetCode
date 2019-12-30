@@ -20,12 +20,15 @@
     <favorites_list name="LeetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/FindNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/OddCells.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+            <state relative-caret-position="497">
+              <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+              <folding>
+                <element signature="method#oddCells#0;class#OddCells#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/DivisorGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/StoneGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/FindNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/OoddCells.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/OddCells.java" />
       </list>
     </option>
   </component>
@@ -118,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,12 +170,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577177455438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577695804686" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMicroServiceAction/spmia-chapter9/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -197,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindNumbers">
+  <component name="RunManager" selected="JUnit.OddCells">
     <configuration name="DivisorGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -209,22 +214,6 @@
       <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.DivisorGame" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivisorGame.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.DivisorGame" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,7 +249,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOf1Bits.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OddCells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -269,7 +258,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.NumberOf1Bits" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.OddCells" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddCells.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.OddCells" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -293,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OddCells" />
+        <item itemvalue="JUnit.OddCells.test" />
         <item itemvalue="JUnit.FindNumbers" />
         <item itemvalue="JUnit.StoneGame" />
         <item itemvalue="JUnit.DivisorGame" />
-        <item itemvalue="JUnit.DivisorGame.test" />
-        <item itemvalue="JUnit.NumberOf1Bits.test" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +338,11 @@
       <workItem from="1576630760292" duration="646000" />
       <workItem from="1576717039842" duration="597000" />
       <workItem from="1577062954406" duration="14438000" />
-      <workItem from="1577149569521" duration="17358000" />
+      <workItem from="1577149569521" duration="18920000" />
+      <workItem from="1577235630449" duration="1409000" />
+      <workItem from="1577321979572" duration="782000" />
+      <workItem from="1577408519514" duration="598000" />
+      <workItem from="1577667560983" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -532,31 +540,17 @@
       <option name="project" value="LOCAL" />
       <updated>1577170956028</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1295. 统计位数为偶数的数字">
+      <created>1577177477001</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1577177477001</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 43m 18s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 46m 59s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 47m 45s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 48m 30s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 48m 41s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisorGame - 2019.12.24 at 14h 51m 31s.xml">
-      <configuration name="DivisorGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoneGame - 2019.12.24 at 15h 21m 09s.xml">
-      <configuration name="StoneGame" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FindNumbers - 2019.12.24 at 16h 29m 35s.xml">
       <configuration name="FindNumbers" configurationId="JUnit" />
     </history-entry>
@@ -566,9 +560,30 @@
     <history-entry file="FindNumbers - 2019.12.24 at 16h 39m 25s.xml">
       <configuration name="FindNumbers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FindNumbers - 2019.12.24 at 16h 50m 33s.xml">
+      <configuration name="FindNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OoddCells - 2019.12.24 at 17h 55m 50s.xml">
+      <configuration name="OoddCells" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OoddCells - 2019.12.24 at 17h 56m 03s.xml">
+      <configuration name="OoddCells" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OoddCells - 2019.12.24 at 17h 57m 45s.xml">
+      <configuration name="OoddCells" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OoddCells - 2019.12.24 at 17h 58m 10s.xml">
+      <configuration name="OoddCells" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OoddCells - 2019.12.24 at 17h 58m 36s.xml">
+      <configuration name="OoddCells" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddCells - 2019.12.30 at 16h 04m 45s.xml">
+      <configuration name="OddCells" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186474000" />
+    <option name="totallyTimeSpent" value="192617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,9 +596,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="948" y="0" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.19402985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -592,7 +606,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24186552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24186552" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.37744033" />
@@ -624,7 +638,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2451193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24186552" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.37744033" />
@@ -691,7 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化" />
     <MESSAGE value="两数相加" />
     <MESSAGE value="3.无重复字符的最长子串" />
     <MESSAGE value="7.整数反转" />
@@ -716,7 +729,8 @@
     <MESSAGE value="338. 比特位计数" />
     <MESSAGE value="191. 位1的个数" />
     <MESSAGE value="1025. 除数博弈" />
-    <option name="LAST_COMMIT_MESSAGE" value="1025. 除数博弈" />
+    <MESSAGE value="1295. 统计位数为偶数的数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="1295. 统计位数为偶数的数字" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1093,8 +1107,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/FindNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        <state relative-caret-position="324">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/OddCells.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+          <folding>
+            <element signature="method#oddCells#0;class#OddCells#0" />
+          </folding>
         </state>
       </provider>
     </entry>
