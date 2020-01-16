@@ -24,15 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountSquareSubmatricesWithAllOnes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
-              <folding>
-                <element signature="method#productExceptSelf#0;class#ProductOfArrayExceptSelf#0" />
-                <element signature="method#product#0;class#ProductOfArrayExceptSelf#0" />
-                <element signature="method#productExceptSelf2#0;class#ProductOfArrayExceptSelf#0" />
-              </folding>
+            <state relative-caret-position="447">
+              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -57,11 +52,15 @@
       <find>resize</find>
       <find>pub</find>
       <find>put</find>
+      <find>\}</find>
+      <find>\]</find>
     </findStrings>
     <replaceStrings>
       <replace>{</replace>
       <replace>|</replace>
       <replace>}</replace>
+      <replace>\{</replace>
+      <replace>\}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -106,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/StoneGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RotateImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountSquareSubmatricesWithAllOnes.java" />
       </list>
     </option>
   </component>
@@ -182,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579155978526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579163404316" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OtherProject/spring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,8 +208,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductOfArrayExceptSelf">
-    <configuration name="GameOfLife" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CountSquareSubmatricesWithAllOnes">
+    <configuration name="CountSquareSubmatricesWithAllOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -218,7 +218,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.GameOfLife" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CountSquareSubmatricesWithAllOnes" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountSquareSubmatricesWithAllOnes" />
         <item itemvalue="JUnit.ProductOfArrayExceptSelf" />
         <item itemvalue="JUnit.ProductOfArrayExceptSelf.test" />
         <item itemvalue="JUnit.RotateImage.test" />
         <item itemvalue="JUnit.RotateImage" />
-        <item itemvalue="JUnit.GameOfLife" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +362,7 @@
       <workItem from="1578876839267" duration="596000" />
       <workItem from="1578962326752" duration="7568000" />
       <workItem from="1579049261790" duration="12113000" />
-      <workItem from="1579136478559" duration="14241000" />
+      <workItem from="1579136478559" duration="19385000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -595,25 +595,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579144698124</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="238. 除自身以外数组的乘积">
+      <created>1579155998121</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1579155998121</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 52m 32s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 52m 41s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 53m 26s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 55m 14s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 56m 13s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 56m 48s.xml">
       <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
@@ -629,9 +621,24 @@
     <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 14h 14m 43s.xml">
       <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 00m 49s.xml">
+      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 02m 50s.xml">
+      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 07m 20s.xml">
+      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 07m 36s.xml">
+      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 33m 29s.xml">
+      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245535000" />
+    <option name="totallyTimeSpent" value="250679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,10 +695,10 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.62364423" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.37418655" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.37418655" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.24186552" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -756,7 +763,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5. 最长回文子串" />
     <MESSAGE value="5. 最长回文子串 添加新解法" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="调整分类" />
@@ -781,7 +787,8 @@
     <MESSAGE value="289. 生命游戏" />
     <MESSAGE value="877. 石子游戏" />
     <MESSAGE value="48. 旋转图像" />
-    <option name="LAST_COMMIT_MESSAGE" value="48. 旋转图像" />
+    <MESSAGE value="238. 除自身以外数组的乘积" />
+    <option name="LAST_COMMIT_MESSAGE" value="238. 除自身以外数组的乘积" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -941,21 +948,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="149" column="48" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="method#combinationSum#0;class#CombinationSum#0" />
-            <element signature="method#find#0;class#CombinationSum#0" />
-            <element signature="method#combinationSum2#0;class#CombinationSum#0" />
           </folding>
         </state>
       </provider>
@@ -1185,13 +1177,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        <state relative-caret-position="447">
+          <caret line="100" column="54" lean-forward="true" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
           <folding>
             <element signature="method#productExceptSelf#0;class#ProductOfArrayExceptSelf#0" />
             <element signature="method#product#0;class#ProductOfArrayExceptSelf#0" />
             <element signature="method#productExceptSelf2#0;class#ProductOfArrayExceptSelf#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1278">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="method#combinationSum#0;class#CombinationSum#0" />
+            <element signature="method#find#0;class#CombinationSum#0" />
+            <element signature="method#combinationSum2#0;class#CombinationSum#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountSquareSubmatricesWithAllOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
         </state>
       </provider>
     </entry>
