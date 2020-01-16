@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -21,10 +24,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RotateImage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="84" selection-end-column="9" />
+            <state relative-caret-position="675">
+              <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+              <folding>
+                <element signature="method#productExceptSelf#0;class#ProductOfArrayExceptSelf#0" />
+                <element signature="method#product#0;class#ProductOfArrayExceptSelf#0" />
+                <element signature="method#productExceptSelf2#0;class#ProductOfArrayExceptSelf#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/StoneGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java" />
       </list>
     </option>
   </component>
@@ -119,12 +128,61 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579144681440" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579155978526" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OtherProject/spring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -150,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RotateImage.test">
+  <component name="RunManager" selected="JUnit.ProductOfArrayExceptSelf">
     <configuration name="GameOfLife" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -162,22 +220,6 @@
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.GameOfLife" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameOfLife.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.GameOfLife" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,17 +240,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddCells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductOfArrayExceptSelf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.simple.*" />
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.simple.OddCells" />
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.ProductOfArrayExceptSelf" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductOfArrayExceptSelf.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.ProductOfArrayExceptSelf" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductOfArrayExceptSelf" />
+        <item itemvalue="JUnit.ProductOfArrayExceptSelf.test" />
         <item itemvalue="JUnit.RotateImage.test" />
         <item itemvalue="JUnit.RotateImage" />
         <item itemvalue="JUnit.GameOfLife" />
-        <item itemvalue="JUnit.GameOfLife.test" />
-        <item itemvalue="JUnit.OddCells" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +362,7 @@
       <workItem from="1578876839267" duration="596000" />
       <workItem from="1578962326752" duration="7568000" />
       <workItem from="1579049261790" duration="12113000" />
-      <workItem from="1579136478559" duration="6072000" />
+      <workItem from="1579136478559" duration="14241000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -530,43 +588,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579050906346</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="48. 旋转图像">
+      <created>1579144698123</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1579144698124</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RotateImage - 2020.01.16 at 10h 19m 21s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 52m 32s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 19m 35s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 52m 41s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 19m 50s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 53m 26s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 21m 09s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 55m 14s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 21m 24s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 56m 13s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 21m 29s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 56m 48s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 23m 49s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 58m 13s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 27m 23s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 13h 45m 57s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage - 2020.01.16 at 10h 30m 22s.xml">
-      <configuration name="RotateImage" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 14h 13m 45s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RotateImage_test - 2020.01.16 at 10h 33m 51s.xml">
-      <configuration name="RotateImage.test" configurationId="JUnit" />
+    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 14h 14m 43s.xml">
+      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237366000" />
+    <option name="totallyTimeSpent" value="245535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,10 +655,10 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.62364423" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.37418655" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.37418655" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.24186552" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -623,10 +688,10 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31236443" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62364423" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.37744033" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.37418655" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -691,7 +756,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9.回文数" />
     <MESSAGE value="5. 最长回文子串" />
     <MESSAGE value="5. 最长回文子串 添加新解法" />
     <MESSAGE value="add gitignore" />
@@ -716,7 +780,8 @@
     <MESSAGE value="1252. 奇数值单元格的数目" />
     <MESSAGE value="289. 生命游戏" />
     <MESSAGE value="877. 石子游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="877. 石子游戏" />
+    <MESSAGE value="48. 旋转图像" />
+    <option name="LAST_COMMIT_MESSAGE" value="48. 旋转图像" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1113,8 +1178,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RotateImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="84" selection-end-column="9" />
+        <state relative-caret-position="422">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <folding>
+            <element signature="method#productExceptSelf#0;class#ProductOfArrayExceptSelf#0" />
+            <element signature="method#product#0;class#ProductOfArrayExceptSelf#0" />
+            <element signature="method#productExceptSelf2#0;class#ProductOfArrayExceptSelf#0" />
+          </folding>
         </state>
       </provider>
     </entry>
