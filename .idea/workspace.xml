@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -24,10 +21,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountSquareSubmatricesWithAllOnes.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/MinimumPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state relative-caret-position="455">
+              <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+              <folding>
+                <element signature="method#minPathSum#0;class#MinimumPathSum#0" />
+                <element signature="method#calculate#0;class#MinimumPathSum#0" />
+                <element signature="method#minPathSum2#0;class#MinimumPathSum#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\[</find>
       <find>]</find>
       <find>synchronized</find>
       <find>transf</find>
@@ -53,6 +54,7 @@
       <find>pub</find>
       <find>put</find>
       <find>\}</find>
+      <find>\[</find>
       <find>\]</find>
     </findStrings>
     <replaceStrings>
@@ -106,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RotateImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountSquareSubmatricesWithAllOnes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/MinimumPathSum.java" />
       </list>
     </option>
   </component>
@@ -129,6 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,27 +167,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579163404316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579404562579" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OtherProject/spring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountSquareSubmatricesWithAllOnes">
+  <component name="RunManager" selected="JUnit.MinimumPathSum">
     <configuration name="CountSquareSubmatricesWithAllOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -234,6 +228,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.LengthOfLongestSubstring" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumPathSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.MinimumPathSum" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumPathSum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.MinimumPathSum" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -271,44 +296,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.RotateImage" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateImage.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.RotateImage" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinimumPathSum" />
+        <item itemvalue="JUnit.MinimumPathSum.test" />
         <item itemvalue="JUnit.CountSquareSubmatricesWithAllOnes" />
         <item itemvalue="JUnit.ProductOfArrayExceptSelf" />
         <item itemvalue="JUnit.ProductOfArrayExceptSelf.test" />
-        <item itemvalue="JUnit.RotateImage.test" />
-        <item itemvalue="JUnit.RotateImage" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +356,10 @@
       <workItem from="1578876839267" duration="596000" />
       <workItem from="1578962326752" duration="7568000" />
       <workItem from="1579049261790" duration="12113000" />
-      <workItem from="1579136478559" duration="19385000" />
+      <workItem from="1579136478559" duration="24092000" />
+      <workItem from="1579221754517" duration="9165000" />
+      <workItem from="1579244891791" duration="3054000" />
+      <workItem from="1579395187580" duration="8544000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -602,43 +599,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579155998121</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="1277. 统计全为 1 的正方形子矩阵">
+      <created>1579163565522</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1579163565522</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 56m 48s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum - 2020.01.19 at 10h 39m 04s.xml">
+      <configuration name="MinimumPathSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 12h 58m 13s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum_test - 2020.01.19 at 10h 39m 27s.xml">
+      <configuration name="MinimumPathSum.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 13h 45m 57s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum - 2020.01.19 at 11h 08m 51s.xml">
+      <configuration name="MinimumPathSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 14h 13m 45s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum - 2020.01.19 at 11h 11m 01s.xml">
+      <configuration name="MinimumPathSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductOfArrayExceptSelf - 2020.01.16 at 14h 14m 43s.xml">
-      <configuration name="ProductOfArrayExceptSelf" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum - 2020.01.19 at 11h 11m 27s.xml">
+      <configuration name="MinimumPathSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 00m 49s.xml">
-      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum_test - 2020.01.19 at 11h 11m 48s.xml">
+      <configuration name="MinimumPathSum.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 02m 50s.xml">
-      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum - 2020.01.19 at 11h 14m 46s.xml">
+      <configuration name="MinimumPathSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 07m 20s.xml">
-      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum_test - 2020.01.19 at 11h 15m 19s.xml">
+      <configuration name="MinimumPathSum.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 07m 36s.xml">
-      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum - 2020.01.19 at 11h 26m 02s.xml">
+      <configuration name="MinimumPathSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountSquareSubmatricesWithAllOnes - 2020.01.16 at 15h 33m 29s.xml">
-      <configuration name="CountSquareSubmatricesWithAllOnes" configurationId="JUnit" />
+    <history-entry file="MinimumPathSum - 2020.01.19 at 11h 26m 45s.xml">
+      <configuration name="MinimumPathSum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250679000" />
+    <option name="totallyTimeSpent" value="276149000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,7 +669,7 @@
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.37418655" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.24186552" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.23535791" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -698,7 +702,7 @@
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.37418655" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.24186552" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.24186552" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -763,7 +767,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5. 最长回文子串 添加新解法" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="调整分类" />
     <MESSAGE value="8. 字符串转换整数 (atoi)" />
@@ -788,7 +791,8 @@
     <MESSAGE value="877. 石子游戏" />
     <MESSAGE value="48. 旋转图像" />
     <MESSAGE value="238. 除自身以外数组的乘积" />
-    <option name="LAST_COMMIT_MESSAGE" value="238. 除自身以外数组的乘积" />
+    <MESSAGE value="1277. 统计全为 1 的正方形子矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="1277. 统计全为 1 的正方形子矩阵" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1175,18 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="100" column="54" lean-forward="true" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
-          <folding>
-            <element signature="method#productExceptSelf#0;class#ProductOfArrayExceptSelf#0" />
-            <element signature="method#product#0;class#ProductOfArrayExceptSelf#0" />
-            <element signature="method#productExceptSelf2#0;class#ProductOfArrayExceptSelf#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1278">
@@ -1202,10 +1194,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ProductOfArrayExceptSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="method#productExceptSelf#0;class#ProductOfArrayExceptSelf#0" />
+            <element signature="method#product#0;class#ProductOfArrayExceptSelf#0" />
+            <element signature="method#productExceptSelf2#0;class#ProductOfArrayExceptSelf#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountSquareSubmatricesWithAllOnes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <caret line="83" column="39" lean-forward="true" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="1520" column="6" lean-forward="true" selection-start-line="1520" selection-start-column="6" selection-end-line="1520" selection-end-column="6" />
+          <folding>
+            <element signature="e#58495#58496#0" expanded="true" />
+            <element signature="e#58534#58535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/MinimumPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+          <folding>
+            <element signature="method#minPathSum#0;class#MinimumPathSum#0" />
+            <element signature="method#calculate#0;class#MinimumPathSum#0" />
+            <element signature="method#minPathSum2#0;class#MinimumPathSum#0" />
+          </folding>
         </state>
       </provider>
     </entry>
