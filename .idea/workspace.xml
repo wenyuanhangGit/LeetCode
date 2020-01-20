@@ -21,14 +21,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Ttriangle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindAllDuplicatesInAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="159" column="67" lean-forward="true" selection-start-line="159" selection-start-column="67" selection-end-line="159" selection-end-column="67" />
+            <state relative-caret-position="131">
+              <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#minimumTotal#0;class#Ttriangle#0" />
-                <element signature="method#minimumTotal2#0;class#Ttriangle#0" />
+                <element signature="method#findDuplicates#0;class#FindAllDuplicatesInAnArray#0" />
               </folding>
             </state>
           </provider>
@@ -110,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/CountSquareSubmatricesWithAllOnes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/MinimumPathSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Ttriangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindAllDuplicatesInAnArray.java" />
       </list>
     </option>
   </component>
@@ -167,6 +167,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579420615475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579491066114" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OtherProject/spring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Ttriangle">
-    <configuration name="CountSquareSubmatricesWithAllOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindAllDuplicatesInAnArray">
+    <configuration name="FindAllDuplicatesInAnArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -213,8 +222,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.CountSquareSubmatricesWithAllOnes" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.FindAllDuplicatesInAnArray" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindAllDuplicatesInAnArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.FindAllDuplicatesInAnArray" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,22 +271,6 @@
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.MinimumPathSum" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumPathSum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.MinimumPathSum" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindAllDuplicatesInAnArray" />
+        <item itemvalue="JUnit.FindAllDuplicatesInAnArray.test" />
         <item itemvalue="JUnit.Ttriangle" />
         <item itemvalue="JUnit.Ttriangle.test" />
         <item itemvalue="JUnit.MinimumPathSum" />
-        <item itemvalue="JUnit.MinimumPathSum.test" />
-        <item itemvalue="JUnit.CountSquareSubmatricesWithAllOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +369,8 @@
       <workItem from="1579136478559" duration="24092000" />
       <workItem from="1579221754517" duration="9165000" />
       <workItem from="1579244891791" duration="3054000" />
-      <workItem from="1579395187580" duration="17696000" />
+      <workItem from="1579395187580" duration="23760000" />
+      <workItem from="1579482820188" duration="6601000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -614,43 +624,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579404582092</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="120. 三角形最小路径和">
+      <created>1579420680191</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1579420680191</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Ttriangle - 2020.01.19 at 14h 44m 38s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 33m 57s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 12m 31s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 35m 01s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 14m 09s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 35m 37s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 19m 25s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 37m 03s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 20m 05s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 46m 59s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 20m 45s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 47m 46s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 25m 10s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 48m 07s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 38m 34s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 48m 27s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 38m 57s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 49m 15s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ttriangle - 2020.01.19 at 15h 40m 41s.xml">
-      <configuration name="Ttriangle" configurationId="JUnit" />
+    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 52m 17s.xml">
+      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285301000" />
+    <option name="totallyTimeSpent" value="297966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,8 +693,8 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.37418655" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.23535791" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.29826465" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.28850326" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -775,7 +792,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调整分类" />
     <MESSAGE value="8. 字符串转换整数 (atoi)" />
     <MESSAGE value="15.三数之和" />
     <MESSAGE value="1266.访问所有点的最小时间" />
@@ -800,7 +816,8 @@
     <MESSAGE value="238. 除自身以外数组的乘积" />
     <MESSAGE value="1277. 统计全为 1 的正方形子矩阵" />
     <MESSAGE value="64. 最小路径和" />
-    <option name="LAST_COMMIT_MESSAGE" value="64. 最小路径和" />
+    <MESSAGE value="120. 三角形最小路径和" />
+    <option name="LAST_COMMIT_MESSAGE" value="120. 三角形最小路径和" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1246,12 +1263,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Ttriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="159" column="67" lean-forward="true" selection-start-line="159" selection-start-column="67" selection-end-line="159" selection-end-column="67" />
+        <state relative-caret-position="197">
+          <caret line="147" column="7" lean-forward="true" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#minimumTotal#0;class#Ttriangle#0" />
             <element signature="method#minimumTotal2#0;class#Ttriangle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindAllDuplicatesInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findDuplicates#0;class#FindAllDuplicatesInAnArray#0" />
           </folding>
         </state>
       </provider>
