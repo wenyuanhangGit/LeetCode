@@ -21,12 +21,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/QueensThatCanAttackTheKing.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindTheDuplicateNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="504">
+              <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#findDuplicate#0;class#FindTheDuplicateNumber#0" />
+                <element signature="method#findDuplicate#1;class#FindTheDuplicateNumber#0" />
+                <element signature="method#findDuplicate3#0;class#FindTheDuplicateNumber#0" />
               </folding>
             </state>
           </provider>
@@ -110,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/Ttriangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindAllDuplicatesInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/QueensThatCanAttackTheKing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindTheDuplicateNumber.java" />
       </list>
     </option>
   </component>
@@ -177,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579500694676" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579509705576" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OtherProject/spring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueensThatCanAttackTheKing">
+  <component name="RunManager" selected="JUnit.FindTheDuplicateNumber">
     <configuration name="FindAllDuplicatesInAnArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -229,6 +233,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
       <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.FindAllDuplicatesInAnArray" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheDuplicateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.FindTheDuplicateNumber" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheDuplicateNumber.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.FindTheDuplicateNumber" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -266,44 +301,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ttriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.Ttriangle" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ttriangle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.Ttriangle" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindTheDuplicateNumber" />
+        <item itemvalue="JUnit.FindTheDuplicateNumber.test" />
         <item itemvalue="JUnit.QueensThatCanAttackTheKing" />
         <item itemvalue="JUnit.FindAllDuplicatesInAnArray" />
         <item itemvalue="JUnit.FindAllDuplicatesInAnArray.test" />
-        <item itemvalue="JUnit.Ttriangle" />
-        <item itemvalue="JUnit.Ttriangle.test" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +365,7 @@
       <workItem from="1579221754517" duration="9165000" />
       <workItem from="1579244891791" duration="3054000" />
       <workItem from="1579395187580" duration="23760000" />
-      <workItem from="1579482820188" duration="10226000" />
+      <workItem from="1579482820188" duration="18136000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -629,43 +633,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579491095060</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="1222. 可以攻击国王的皇后">
+      <created>1579500716511</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1579500716511</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 37m 03s.xml">
-      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 36m 46s.xml">
+      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 46m 59s.xml">
-      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 37m 17s.xml">
+      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 47m 46s.xml">
-      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 38m 27s.xml">
+      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 48m 07s.xml">
-      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 38m 41s.xml">
+      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 48m 27s.xml">
-      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber_test - 2020.01.20 at 15h 38m 47s.xml">
+      <configuration name="FindTheDuplicateNumber.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 49m 15s.xml">
-      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber_test - 2020.01.20 at 15h 42m 01s.xml">
+      <configuration name="FindTheDuplicateNumber.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindAllDuplicatesInAnArray - 2020.01.20 at 10h 52m 17s.xml">
-      <configuration name="FindAllDuplicatesInAnArray" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber_test - 2020.01.20 at 15h 45m 03s.xml">
+      <configuration name="FindTheDuplicateNumber.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueensThatCanAttackTheKing - 2020.01.20 at 11h 41m 00s.xml">
-      <configuration name="QueensThatCanAttackTheKing" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 16h 09m 48s.xml">
+      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueensThatCanAttackTheKing - 2020.01.20 at 14h 01m 49s.xml">
-      <configuration name="QueensThatCanAttackTheKing" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 16h 10m 23s.xml">
+      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueensThatCanAttackTheKing - 2020.01.20 at 14h 02m 12s.xml">
-      <configuration name="QueensThatCanAttackTheKing" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 16h 34m 17s.xml">
+      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301591000" />
+    <option name="totallyTimeSpent" value="309501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,8 +702,8 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.29826465" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.23644252" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.27874187" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.23644252" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -725,7 +736,7 @@
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.29826465" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.28850326" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.23644252" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -790,7 +801,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15.三数之和" />
     <MESSAGE value="1266.访问所有点的最小时间" />
     <MESSAGE value="1266.访问所有点的最小时间 fix" />
     <MESSAGE value="59.螺旋矩阵 II" />
@@ -815,7 +825,8 @@
     <MESSAGE value="64. 最小路径和" />
     <MESSAGE value="120. 三角形最小路径和" />
     <MESSAGE value="442. 数组中重复的数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="442. 数组中重复的数据" />
+    <MESSAGE value="1222. 可以攻击国王的皇后" />
+    <option name="LAST_COMMIT_MESSAGE" value="1222. 可以攻击国王的皇后" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1003,13 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35926">
-          <caret line="1698" column="36" lean-forward="true" selection-start-line="1698" selection-start-column="36" selection-end-line="1698" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1133,16 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/simple/DivisorGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -1236,17 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="1520" column="6" lean-forward="true" selection-start-line="1520" selection-start-column="6" selection-end-line="1520" selection-end-column="6" />
-          <folding>
-            <element signature="e#58495#58496#0" expanded="true" />
-            <element signature="e#58534#58535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/MinimumPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1291,10 +1274,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/QueensThatCanAttackTheKing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="358">
+          <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="247" column="23" selection-start-line="247" selection-start-column="23" selection-end-line="247" selection-end-column="23" />
+          <folding>
+            <element signature="e#19228#19229#0" expanded="true" />
+            <element signature="e#19311#19312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+          <folding>
+            <element signature="e#5336#5337#0" expanded="true" />
+            <element signature="e#5388#5389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="284" column="3" selection-start-line="284" selection-start-column="3" selection-end-line="284" selection-end-column="4" />
+          <folding>
+            <element signature="e#11799#11800#0" expanded="true" />
+            <element signature="e#11880#11881#0" expanded="true" />
+            <element signature="e#58495#58496#0" expanded="true" />
+            <element signature="e#58534#58535#0" expanded="true" />
+            <element signature="e#81433#81434#0" expanded="true" />
+            <element signature="e#81475#81476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindTheDuplicateNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findDuplicate#0;class#FindTheDuplicateNumber#0" />
+            <element signature="method#findDuplicate#1;class#FindTheDuplicateNumber#0" />
+            <element signature="method#findDuplicate3#0;class#FindTheDuplicateNumber#0" />
           </folding>
         </state>
       </provider>
