@@ -21,13 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PancakeSorting.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ContainerWithMostWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="79">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -112,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/QueensThatCanAttackTheKing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindTheDuplicateNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PancakeSorting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ContainerWithMostWater.java" />
       </list>
     </option>
   </component>
@@ -179,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579572492396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579577487522" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OtherProject/spring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -205,7 +203,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PancakeSorting">
+  <component name="RunManager" selected="JUnit.ContainerWithMostWater">
+    <configuration name="ContainerWithMostWater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.ContainerWithMostWater" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindTheDuplicateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -284,28 +297,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueensThatCanAttackTheKing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.QueensThatCanAttackTheKing" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainerWithMostWater" />
         <item itemvalue="JUnit.PancakeSorting" />
         <item itemvalue="JUnit.PancakeSorting.test" />
         <item itemvalue="JUnit.FindTheDuplicateNumber" />
         <item itemvalue="JUnit.FindTheDuplicateNumber.test" />
-        <item itemvalue="JUnit.QueensThatCanAttackTheKing" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +362,7 @@
       <workItem from="1579244891791" duration="3054000" />
       <workItem from="1579395187580" duration="23760000" />
       <workItem from="1579482820188" duration="19783000" />
-      <workItem from="1579566516068" duration="3083000" />
+      <workItem from="1579566516068" duration="7040000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -646,25 +644,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579509732151</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="969. 煎饼排序">
+      <created>1579572563520</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1579572563520</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PancakeSorting_test - 2020.01.21 at 09h 55m 55s.xml">
-      <configuration name="PancakeSorting.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PancakeSorting_test - 2020.01.21 at 09h 57m 18s.xml">
-      <configuration name="PancakeSorting.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PancakeSorting_test - 2020.01.21 at 09h 58m 15s.xml">
-      <configuration name="PancakeSorting.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PancakeSorting - 2020.01.21 at 09h 58m 23s.xml">
-      <configuration name="PancakeSorting" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PancakeSorting - 2020.01.21 at 09h 58m 31s.xml">
-      <configuration name="PancakeSorting" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PancakeSorting_test - 2020.01.21 at 10h 00m 34s.xml">
       <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
@@ -680,9 +670,24 @@
     <history-entry file="PancakeSorting - 2020.01.21 at 10h 02m 26s.xml">
       <configuration name="PancakeSorting" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContainerWithMostWater - 2020.01.21 at 10h 24m 31s.xml">
+      <configuration name="ContainerWithMostWater" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerWithMostWater - 2020.01.21 at 10h 28m 03s.xml">
+      <configuration name="ContainerWithMostWater" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerWithMostWater - 2020.01.21 at 11h 17m 55s.xml">
+      <configuration name="ContainerWithMostWater" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerWithMostWater - 2020.01.21 at 11h 19m 03s.xml">
+      <configuration name="ContainerWithMostWater" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerWithMostWater - 2020.01.21 at 11h 20m 01s.xml">
+      <configuration name="ContainerWithMostWater" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314231000" />
+    <option name="totallyTimeSpent" value="318188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,7 +699,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="948" y="0" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.18710022" />
@@ -741,7 +746,7 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.27874187" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36334056" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.23644252" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -807,7 +812,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1266.访问所有点的最小时间 fix" />
     <MESSAGE value="59.螺旋矩阵 II" />
     <MESSAGE value="78.子集" />
     <MESSAGE value="950. 按递增顺序显示卡牌" />
@@ -832,7 +836,8 @@
     <MESSAGE value="442. 数组中重复的数据" />
     <MESSAGE value="1222. 可以攻击国王的皇后" />
     <MESSAGE value="287. 寻找重复数" />
-    <option name="LAST_COMMIT_MESSAGE" value="287. 寻找重复数" />
+    <MESSAGE value="969. 煎饼排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="969. 煎饼排序" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1188,13 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/StoneGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/RotateImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -1350,11 +1348,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PancakeSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="297">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/StoneGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
         </state>
       </provider>
     </entry>
