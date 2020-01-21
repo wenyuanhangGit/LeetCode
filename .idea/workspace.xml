@@ -19,17 +19,14 @@
     <favorites_list name="LeetCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindTheDuplicateNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PancakeSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+            <state relative-caret-position="679">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#findDuplicate#0;class#FindTheDuplicateNumber#0" />
-                <element signature="method#findDuplicate#1;class#FindTheDuplicateNumber#0" />
-                <element signature="method#findDuplicate3#0;class#FindTheDuplicateNumber#0" />
               </folding>
             </state>
           </provider>
@@ -114,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindAllDuplicatesInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/QueensThatCanAttackTheKing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindTheDuplicateNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PancakeSorting.java" />
       </list>
     </option>
   </component>
@@ -137,7 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,13 +173,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579509705576" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579572492396" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OtherProject/spring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -207,38 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindTheDuplicateNumber">
-    <configuration name="FindAllDuplicatesInAnArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.FindAllDuplicatesInAnArray" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindAllDuplicatesInAnArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.FindAllDuplicatesInAnArray" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PancakeSorting">
     <configuration name="FindTheDuplicateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -286,6 +253,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PancakeSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.PancakeSorting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PancakeSorting.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.PancakeSorting" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueensThatCanAttackTheKing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -303,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PancakeSorting" />
+        <item itemvalue="JUnit.PancakeSorting.test" />
         <item itemvalue="JUnit.FindTheDuplicateNumber" />
         <item itemvalue="JUnit.FindTheDuplicateNumber.test" />
         <item itemvalue="JUnit.QueensThatCanAttackTheKing" />
-        <item itemvalue="JUnit.FindAllDuplicatesInAnArray" />
-        <item itemvalue="JUnit.FindAllDuplicatesInAnArray.test" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +363,8 @@
       <workItem from="1579221754517" duration="9165000" />
       <workItem from="1579244891791" duration="3054000" />
       <workItem from="1579395187580" duration="23760000" />
-      <workItem from="1579482820188" duration="18136000" />
+      <workItem from="1579482820188" duration="19783000" />
+      <workItem from="1579566516068" duration="3083000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -640,43 +639,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579500716511</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="287. 寻找重复数">
+      <created>1579509732151</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1579509732151</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 36m 46s.xml">
-      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
+    <history-entry file="PancakeSorting_test - 2020.01.21 at 09h 55m 55s.xml">
+      <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 37m 17s.xml">
-      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
+    <history-entry file="PancakeSorting_test - 2020.01.21 at 09h 57m 18s.xml">
+      <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 38m 27s.xml">
-      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
+    <history-entry file="PancakeSorting_test - 2020.01.21 at 09h 58m 15s.xml">
+      <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 15h 38m 41s.xml">
-      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
+    <history-entry file="PancakeSorting - 2020.01.21 at 09h 58m 23s.xml">
+      <configuration name="PancakeSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber_test - 2020.01.20 at 15h 38m 47s.xml">
-      <configuration name="FindTheDuplicateNumber.test" configurationId="JUnit" />
+    <history-entry file="PancakeSorting - 2020.01.21 at 09h 58m 31s.xml">
+      <configuration name="PancakeSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber_test - 2020.01.20 at 15h 42m 01s.xml">
-      <configuration name="FindTheDuplicateNumber.test" configurationId="JUnit" />
+    <history-entry file="PancakeSorting_test - 2020.01.21 at 10h 00m 34s.xml">
+      <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber_test - 2020.01.20 at 15h 45m 03s.xml">
-      <configuration name="FindTheDuplicateNumber.test" configurationId="JUnit" />
+    <history-entry file="PancakeSorting_test - 2020.01.21 at 10h 00m 42s.xml">
+      <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 16h 09m 48s.xml">
-      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
+    <history-entry file="PancakeSorting_test - 2020.01.21 at 10h 01m 01s.xml">
+      <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 16h 10m 23s.xml">
-      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
+    <history-entry file="PancakeSorting_test - 2020.01.21 at 10h 01m 49s.xml">
+      <configuration name="PancakeSorting.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTheDuplicateNumber - 2020.01.20 at 16h 34m 17s.xml">
-      <configuration name="FindTheDuplicateNumber" configurationId="JUnit" />
+    <history-entry file="PancakeSorting - 2020.01.21 at 10h 02m 26s.xml">
+      <configuration name="PancakeSorting" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309501000" />
+    <option name="totallyTimeSpent" value="314231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,7 +697,7 @@
     <frame x="948" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.18496802" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -702,8 +708,8 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.27874187" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.23644252" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36334056" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.23644252" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.329718" />
@@ -724,7 +730,7 @@
       <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.18496802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -735,7 +741,7 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.29826465" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.27874187" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.23644252" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -801,7 +807,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1266.访问所有点的最小时间" />
     <MESSAGE value="1266.访问所有点的最小时间 fix" />
     <MESSAGE value="59.螺旋矩阵 II" />
     <MESSAGE value="78.子集" />
@@ -826,7 +831,8 @@
     <MESSAGE value="120. 三角形最小路径和" />
     <MESSAGE value="442. 数组中重复的数据" />
     <MESSAGE value="1222. 可以攻击国王的皇后" />
-    <option name="LAST_COMMIT_MESSAGE" value="1222. 可以攻击国王的皇后" />
+    <MESSAGE value="287. 寻找重复数" />
+    <option name="LAST_COMMIT_MESSAGE" value="287. 寻找重复数" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1331,13 +1337,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/FindTheDuplicateNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="272">
           <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#findDuplicate#0;class#FindTheDuplicateNumber#0" />
             <element signature="method#findDuplicate#1;class#FindTheDuplicateNumber#0" />
             <element signature="method#findDuplicate3#0;class#FindTheDuplicateNumber#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/PancakeSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
