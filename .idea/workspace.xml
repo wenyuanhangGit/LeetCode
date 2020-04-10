@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce9a7c5-76cd-47ff-a952-9d59d3d4c328" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" />
     </list>
     <list id="4c941774-c4a2-4d57-a665-00299835dcd3" name="Not Commit" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/wen/leetcode/medium/ZigzagConversion.java" afterDir="false" />
@@ -50,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579600816899" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/cloudkeeper/cloudkeeper-generate/2.1.7-SNAPSHOT/cloudkeeper-generate-2.1.7-20191220.025651-31.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -75,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BestTimeToBuyAndSellStockWithFransactionFee">
+  <component name="RunManager" selected="JUnit.EightQueen.test3">
     <configuration name="BestTimeToBuyAndSellStockWithFransactionFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -107,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EightQueen.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +113,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.ContainerWithMostWater" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.EightQueen" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightQueen.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.EightQueen" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightQueen.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.EightQueen" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,44 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PancakeSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.PancakeSorting" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PancakeSorting.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wen.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wen.leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="com.wen.leetcode.medium.PancakeSorting" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EightQueen.test3" />
+        <item itemvalue="JUnit.EightQueen.test2" />
+        <item itemvalue="JUnit.EightQueen.test" />
         <item itemvalue="JUnit.BestTimeToBuyAndSellStockWithFransactionFee" />
         <item itemvalue="JUnit.BestTimeToBuyAndSellStockWithFransactionFee.test" />
-        <item itemvalue="JUnit.ContainerWithMostWater" />
-        <item itemvalue="JUnit.PancakeSorting" />
-        <item itemvalue="JUnit.PancakeSorting.test" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +256,8 @@
       <workItem from="1583997437201" duration="1310000" />
       <workItem from="1584078117058" duration="1197000" />
       <workItem from="1584319676757" duration="668000" />
-      <workItem from="1584406158199" duration="633000" />
+      <workItem from="1584406158199" duration="892000" />
+      <workItem from="1586490004816" duration="15182000" />
     </task>
     <task id="LOCAL-00001" summary="1.两数之和">
       <created>1574394446881</created>
@@ -553,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579577642764</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="714. 买卖股票的最佳时机含手续费">
+      <created>1584430366977</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1584430366977</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -596,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="78.子集" />
     <MESSAGE value="950. 按递增顺序显示卡牌" />
     <MESSAGE value="39. 组合总和" />
     <MESSAGE value="39. 组合总和  剪枝，加法做" />
@@ -621,7 +627,8 @@
     <MESSAGE value="287. 寻找重复数" />
     <MESSAGE value="969. 煎饼排序" />
     <MESSAGE value="11. 盛最多水的容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. 盛最多水的容器" />
+    <MESSAGE value="714. 买卖股票的最佳时机含手续费" />
+    <option name="LAST_COMMIT_MESSAGE" value="714. 买卖股票的最佳时机含手续费" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1582526629433">
